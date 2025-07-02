@@ -139,3 +139,39 @@ body {
     right: 5px;
     bottom: 6px; /* Изменено */
 }
+.navbar{
+    background-color: black;
+    border-radius: 15px;
+    padding: 12px;
+    width: 100%;
+    margin: 0 auto; /* Исправлено */
+    height: auto;
+    box-sizing: border-box; /* Добавлено */
+    overflow: hidden;
+    bottom: 0;
+}
+.trash{
+    color:azure;
+    background-image: url('https://images.icon-icons.com/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png');
+}
+.profile{
+    color:azure;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 56px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
