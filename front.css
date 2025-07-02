@@ -1,6 +1,6 @@
 body{
-    width: 350px;
-    height: 670px;
+    width: auto;
+    height: auto;
     font-family: 'Open Sans', Arial, sans-serif;
     margin: auto;
     padding: auto;
@@ -19,8 +19,8 @@ body{
     background-color: black;
     border-radius: 15px 15px 15px 15px ;
     padding: 16px;
-    width: 350px;
-    height: 80px;
+    width: auto;
+    height: 200px;
 }
 .positi{
     position: relative;
@@ -28,9 +28,9 @@ body{
 }
 .card_image{
     width: 50%;
-    height: 90px;
+    height: 150px;
     border-radius: 15px 15px 0px 0px ;
-    margin-top: 100px;
+    margin-top: 180px;
     background-image: url(https://nike-air-force1.com/image/cache/catalog/p-6000/nike-p-6000-hangul-day-photon-dust/1-1200x600.webp);
     background-size: cover;
     background-position: center;
@@ -42,7 +42,7 @@ body{
     margin-top: -2px;
     width: 50%;
     border-radius: 0px 0px 10px 10px ;
-    height: 65px;
+    height: 100px;
 }
 .card_content h3{
    position:relative;
@@ -51,20 +51,24 @@ body{
 }
 .card_sizeprice h4{
     position: relative;
-    bottom:85px;
-    left: 50px;
+    bottom:120px;
+    left: 125px;
 }
 
 .card_item {
     display: inline-block;
     position: relative;
+    border:1px solid black;
+    border-radius: 10px 10px 10px 10px;
     padding: 8px;
-    width: 10px;
+    width: 20px;
     height: 10px;
-    bottom: 97px;
-    left:2px;
+    bottom: 130px;
+    left:50px;
     cursor: pointer;
     font-size: 18px;
+    
+ 
 
 
     
@@ -77,23 +81,24 @@ body{
   border: none;
   background-image: url('https://images.icon-icons.com/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png');
   background-size: cover;
-  bottom: 105px;
-  left:10px;
+  bottom: 142px;
+  left:80px;
   background-color: azure;
   cursor: pointer;
 }
 
 .card_image_two{
     width: 50%;
-    height: 90px;
+    height: 150px;
     border-radius: 15px 15px 0px 0px ;
     margin-top: 10px;
     background-image: url(https://nike-air-force1.com/image/cache/catalog/AF07/07WhiteBlack/AO2423101-1200x600.webp);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+
 }
 .posit{
     position: relative;
-    left: 190px;
-    bottom: 308px;
+    left: 330px;
+    bottom: 405px;
 }
