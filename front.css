@@ -50,9 +50,9 @@ body {
     border-radius: 15px;
     padding: 12px;
     width: 100%;
-    margin: 0 auto; /* Исправлено */
+    margin: 0 auto; 
     height: auto;
-    box-sizing: border-box; /* Добавлено */
+    box-sizing: border-box; 
 
 }
 
@@ -171,6 +171,7 @@ body {
     color: black;
 }
 
+/* Add a color to the active/current link */
 .navbar a.active {
     background-color: #4CAF50;
     color: white;
