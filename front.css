@@ -4,102 +4,115 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: #2D2D2D;
-    overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: normal;
     font-size: 100%;
     position: relative;
+    overflow-x:hidden;
 }
-        
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
     gap: 10px;
+    width: 100%; /* Добавлено */
+    box-sizing: border-box; /* Добавлено */
 }
         
 .card {
     width: 45%;
     margin-bottom: 20px;
     position: relative;
-    align-items: center;
     padding: 6px;
+    background: white; /* Добавлено */
+    border-radius: 15px; /* Добавлено */
+    overflow: hidden; /* Добавлено */
+    box-sizing: border-box; /* Добавлено */
+
 }
 
-
-.logo h2{
+.logo h2 {
     font-size: 28px;
     text-align: center;
-    color:azure;
+    color: azure;
     cursor: pointer;
     font-family: American Typewriter, serif;
     margin: 10px 0;
+
 }
-.nav{
+
+.nav {
     background-color: black;
     border-radius: 15px;
     padding: 12px;
-    width: 88%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 0 auto; /* Исправлено */
     height: auto;
+    box-sizing: border-box; /* Добавлено */
+
 }
 
-.card_image, .card_image_two{
+.card_image, .card_image_two {
     height: 100px;
     border-radius: 15px 15px 0 0;
     background-size: cover;
     background-position: center;
     width: 100%;
+
 }
 
-.card_image{
+.card_image {
     background-image: url(https://nike-air-force1.com/image/cache/catalog/p-6000/nike-p-6000-hangul-day-photon-dust/1-1200x600.webp);
 }
 
-.card_image_two{
+.card_image_two {
     background-image: url(https://nike-air-force1.com/image/cache/catalog/AF07/07WhiteBlack/AO2423101-1200x600.webp);
 }
 
-.card_content{
-    padding: 15px 0;
+.card_content {
+    padding: 10px 0; /* Изменено */
     background-color: azure;
     width: 100%;
     border-radius: 0 0 10px 10px;
-    height: 60px;
-}
-.card_content h3{
-    position: relative;
-   text-align: center;
-   margin: 0;
-   font-size: 18px;
-   bottom: 15px;
+    height: auto; /* Изменено */
+    box-sizing: border-box; /* Добавлено */
+
 }
 
-.card_sizeprice h4{
-    position: relative;
+.card_content h3 {
     text-align: center;
-    margin: 5px 0;
+    margin: 0;
+    font-size: 16px; /* Уменьшено */
+    padding: 5px 0; /* Добавлено */
+
+}
+
+.card_sizeprice h4 {
+    text-align: center;
+    margin: 0px 0;
     font-size: 16px;
-    bottom: 66px;
+    padding: 5px 0px ; /* Добавлено */
+
 }
 
 .card_item {
-    position: relative;
     display: inline-block;
+    position: relative;
     border: 1px solid black;
-    border-radius: 10px;
-    padding: 8px;
-    width: 14px;
-    height: 10px;
+    border-radius: 8px;
+    padding: 6px; /* Уменьшено */
+    width: 25px; /* Изменено */
+    height: 20px; /* Изменено */
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px; /* Уменьшено */
     text-align: center;
-    line-height: 10px;
-    bottom:65px;
-    right: 14px;
-    
+    line-height: 10px; /* Добавлено */ /* Добавлено */
+    box-sizing: border-box; /* Добавлено */
+    right:15px ;
+
 }
 
 .card_grid {
@@ -107,19 +120,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 2px;
     margin-top: 10px;
+    padding: 8px; /* Добавлено */
+    position: relative; /* Изменено */
 }
 
-.image_button{
-  width: 30px;
-  height: 30px;
-  border: none;
-  background-image: url('https://images.icon-icons.com/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png');
-  background-size: cover;
-  background-color: transparent;
-  cursor: pointer;
-  position: absolute;
-  right: 5px;
-  bottom: 71px;
+.image_button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url('https://images.icon-icons.com/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png');
+    background-size: cover;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute; /* Сохраняем */
+    right: 5px;
+    bottom: 6px; /* Изменено */
 }
