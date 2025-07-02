@@ -2,7 +2,7 @@ body {
     width: 400px;
     min-height: 625px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
     padding: 0;
     background-color: #2D2D2D;
     box-sizing: border-box;
@@ -50,13 +50,13 @@ body {
     border-radius: 15px;
     padding: 12px;
     width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
     height: auto;
     box-sizing: border-box; 
 
 }
 
-.card_image, .card_image_two {
+.card_image, .card_image_two, .card_image_three,.card_image_four {
     height: 100px;
     border-radius: 15px 15px 0 0;
     background-size: cover;
@@ -73,6 +73,12 @@ body {
     background-image: url(https://nike-air-force1.com/image/cache/catalog/AF07/07WhiteBlack/AO2423101-1200x600.webp);
 }
 
+.card_image_three{
+    background-image: url(https://nike-air-force1.com/image/cache/catalog/am270/belo-chernye/nikeairmax270-1200x600.webp);
+}
+.card_image_four{
+    background-image: url(https://nike-air-force1.com/image/cache/catalog/Low/night-of-mischief/q4-l-1200x600.webp);
+}
 .card_content {
     padding: 10px 0; /* Изменено */
     background-color: azure;
@@ -144,10 +150,10 @@ body {
     border-radius: 15px;
     padding: 12px;
     width: 100%;
-    margin: 0 auto; /* Исправлено */
     height: auto;
-    box-sizing: border-box; /* Добавлено */
+    box-sizing: border-box; 
     overflow: hidden;
+   
     bottom: 0;
 }
 .trash{
@@ -162,7 +168,7 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 56px;
+    padding: 14px 54px;
     text-decoration: none;
     font-size: 17px;
 }
