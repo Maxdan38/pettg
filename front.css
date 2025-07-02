@@ -20,7 +20,7 @@ body {
 }
         
 .card {
-    width: 48%;
+    width: 46%;
     margin-bottom: 20px;
     position: relative;
 }
@@ -38,7 +38,7 @@ body {
     background-color: black;
     border-radius: 15px;
     padding: 12px;
-    width: 95%;
+    width: 92%;
     margin: 10px auto;
     height: auto;
 }
@@ -95,7 +95,7 @@ body {
     text-align: center;
     line-height: 10px;
     bottom:65px;
-    right: 22px;
+    right: 18px;
     
 }
 
@@ -106,7 +106,6 @@ body {
     flex-wrap: wrap;
     gap: 5px;
     margin-top: 10px;
-    position: relative;
 }
 
 .image_button{
@@ -118,6 +117,6 @@ body {
   background-color: transparent;
   cursor: pointer;
   position: absolute;
-  right: 10px;
+  right: 5px;
   bottom: 65px;
 }
