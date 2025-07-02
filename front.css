@@ -1,0 +1,99 @@
+body{
+    width: 350px;
+    height: 670px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+    font-weight: normal;
+    font-size: 100%; 
+    background-color:#2D2D2D;
+} 
+.logo h2{
+    font-size: 36px;
+    text-align: center;
+    color:azure;
+    cursor: pointer;
+    font-family: American Typewriter, serif;
+}
+.nav{
+    background-color: black;
+    border-radius: 15px 15px 15px 15px ;
+    padding: 16px;
+    width: 350px;
+    height: 80px;
+}
+.positi{
+    position: relative;
+    right:12px;
+}
+.card_image{
+    width: 50%;
+    height: 90px;
+    border-radius: 15px 15px 0px 0px ;
+    margin-top: 100px;
+    background-image: url(https://nike-air-force1.com/image/cache/catalog/p-6000/nike-p-6000-hangul-day-photon-dust/1-1200x600.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.card_content{
+    padding-top: 45px;
+    background-color: azure;
+    margin-top: -2px;
+    width: 50%;
+    border-radius: 0px 0px 10px 10px ;
+    height: 65px;
+}
+.card_content h3{
+   position:relative;
+   bottom: 50px;
+   text-align: center;
+}
+.card_sizeprice h4{
+    position: relative;
+    bottom:85px;
+    left: 50px;
+}
+
+.card_item {
+    display: inline-block;
+    position: relative;
+    padding: 8px;
+    width: 10px;
+    height: 10px;
+    bottom: 97px;
+    left:2px;
+    cursor: pointer;
+    font-size: 18px;
+
+
+    
+}
+
+.image_button{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-image: url('https://images.icon-icons.com/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png');
+  background-size: cover;
+  bottom: 105px;
+  left:10px;
+  background-color: azure;
+  cursor: pointer;
+}
+
+.card_image_two{
+    width: 50%;
+    height: 90px;
+    border-radius: 15px 15px 0px 0px ;
+    margin-top: 10px;
+    background-image: url(https://nike-air-force1.com/image/cache/catalog/AF07/07WhiteBlack/AO2423101-1200x600.webp);
+    background-size: cover;
+    background-position: center; 
+}
+.posit{
+    position: relative;
+    left: 190px;
+    bottom: 308px;
+}
