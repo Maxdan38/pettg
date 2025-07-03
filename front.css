@@ -2,8 +2,8 @@
 body,html {
     width: 400px;
     min-height: 625px;
-    max-width: 430px;
-    margin: 0 0 0 10px;
+    max-width: 400px;
+    margin: 0;
     padding: 0;
     background-color: #2D2D2D;
     box-sizing: border-box;
@@ -11,7 +11,13 @@ body,html {
     font-weight: normal;
     font-size: 100%;
     position: relative;
-    overflow-x:hidden;
+    overflow: auto;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 400px) {
+  .responsive-content {
+    flex-direction: column;
+  }
 }
 
 .cards-container {
@@ -177,7 +183,7 @@ body,html {
     cursor: pointer;
     position: absolute;
     right: 5px;
-    bottom: 6px;
+    bottom: 5px;
     overflow: hidden; 
 }
 .navbar{
