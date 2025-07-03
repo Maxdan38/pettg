@@ -123,6 +123,8 @@ body,html {
     line-height: 10px; 
     box-sizing: border-box; 
     right:15px ;
+    user-select: none; 
+    -webkit-tap-highlight-color: transparent; 
 
 }
 
@@ -136,17 +138,33 @@ body,html {
     padding: 8px; 
     position: relative; 
 }
-.card_item:hover {
-    background-color: #e0e0e0;
-}
+ .card_item:active, .card_item:hover {
+            background-color: #7f61cf;
+            transform: scale(0.98);
+        }
         
-.card_item.selected {
-    background-color: #5a4ec4;
-    color: white;
-    border: 2px solid #c96f26;
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
+        .card_item.selected {
+            background-color: #7f61cf;
+            color: white;
+            border: 2px solid #FF0000;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+        
+        .card_item.selected::after {
+            content: "✓";
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #FF0000;
+            color: white;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
 .image_button {
     width: 30px;
@@ -165,28 +183,37 @@ body,html {
     border-radius: 15px;
     padding: 12px;
     width: 400px;
-    height: auto;
+    height: 70px;
     box-sizing: border-box; 
     overflow: hidden;
     position: fixed;
     bottom: 0;
 }
-.trash{
-    color:azure;
-    font-family: "Gill Sans", sans-serif;
+.nav-icon {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
 }
-.profile{
-    color:azure;
-    font-family: "Gill Sans", sans-serif;
+        
+.trash:hover .cart-icon,.trash.active .cart-icon {
+    fill: #FF0000;
+    transform: scale(1.1);
+}
+.profile:hover .nav-icon,.profile.active .nav-icon,.trash:hover .nav-icon,.trash.active .nav-icon {
+    fill: #FF0000;
+    transform: scale(1.1);
 }
 .navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 54px;
+    padding: 14px 78px;
     text-decoration: none;
     font-size: 17px;
+
 }
 .navbar a:hover {
     background-color: #ddd;
