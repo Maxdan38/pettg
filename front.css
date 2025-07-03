@@ -2,8 +2,8 @@
 body,html {
     width: 400px;
     min-height: 625px;
-    max-width: 400px;
-
+    max-width: 430px;
+    margin: 0 0 0 10px;
     padding: 0;
     background-color: #2D2D2D;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ body,html {
     margin: 0 auto;
     height: auto;
     box-sizing: border-box; 
-
+    overflow: hidden; 
 }
 
 .card_image, .card_image_two, .card_image_three,.card_image_four {
@@ -66,7 +66,7 @@ body,html {
     background-size: cover;
     background-position: center;
     width: 100%;
-
+    overflow: hidden; 
 }
 
 .card_image {
@@ -90,7 +90,7 @@ body,html {
     border-radius: 0 0 10px 10px;
     height: auto; 
     box-sizing: border-box; 
-
+    overflow: hidden; 
 }
 
 .card_content h3 {
@@ -98,7 +98,7 @@ body,html {
     margin: 0;
     font-size: 16px; 
     padding: 5px 0; 
-
+    overflow: hidden; 
 }
 
 .card_sizeprice h4 {
@@ -106,7 +106,7 @@ body,html {
     margin: 0px 0;
     font-size: 16px;
     padding: 5px 0px ; 
-
+    overflow: hidden; 
 }
 
 .card_item {
@@ -137,6 +137,7 @@ body,html {
     margin-top: 10px;
     padding: 8px; 
     position: relative; 
+
 }
  .card_item:active, .card_item:hover {
             background-color: #7f61cf;
@@ -177,6 +178,7 @@ body,html {
     position: absolute;
     right: 5px;
     bottom: 6px;
+    overflow: hidden; 
 }
 .navbar{
     background-color: black;
@@ -213,6 +215,7 @@ body,html {
     padding: 14px 78px;
     text-decoration: none;
     font-size: 17px;
+
 
 }
 .navbar a:hover {
