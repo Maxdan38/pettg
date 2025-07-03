@@ -1,4 +1,5 @@
-body {
+
+body,html {
     width: 400px;
     min-height: 625px;
     max-width: 400px;
@@ -19,8 +20,8 @@ body {
     justify-content: space-between;
     padding: 10px;
     gap: 10px;
-    width: 100%; /* Добавлено */
-    box-sizing: border-box; /* Добавлено */
+    width: 100%; 
+    box-sizing: border-box; 
 }
         
 .card {
@@ -28,10 +29,10 @@ body {
     margin-bottom: 20px;
     position: relative;
     padding: 6px;
-    background: white; /* Добавлено */
-    border-radius: 15px; /* Добавлено */
-    overflow: hidden; /* Добавлено */
-    box-sizing: border-box; /* Добавлено */
+    background: white; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-sizing: border-box; 
 
 }
 
@@ -42,9 +43,12 @@ body {
     cursor: pointer;
     font-family: American Typewriter, serif;
     margin: 10px 0;
+    text-decoration: none;
 
 }
-
+.logo a{
+    text-decoration: none;
+}
 .nav {
     background-color: black;
     border-radius: 15px;
@@ -80,20 +84,20 @@ body {
     background-image: url(https://nike-air-force1.com/image/cache/catalog/Low/night-of-mischief/q4-l-1200x600.webp);
 }
 .card_content {
-    padding: 10px 0; /* Изменено */
+    padding: 10px 0; 
     background-color: azure;
     width: 100%;
     border-radius: 0 0 10px 10px;
-    height: auto; /* Изменено */
-    box-sizing: border-box; /* Добавлено */
+    height: auto; 
+    box-sizing: border-box; 
 
 }
 
 .card_content h3 {
     text-align: center;
     margin: 0;
-    font-size: 16px; /* Уменьшено */
-    padding: 5px 0; /* Добавлено */
+    font-size: 16px; 
+    padding: 5px 0; 
 
 }
 
@@ -101,7 +105,7 @@ body {
     text-align: center;
     margin: 0px 0;
     font-size: 16px;
-    padding: 5px 0px ; /* Добавлено */
+    padding: 5px 0px ; 
 
 }
 
@@ -110,14 +114,14 @@ body {
     position: relative;
     border: 1px solid black;
     border-radius: 8px;
-    padding: 6px; /* Уменьшено */
-    width: 25px; /* Изменено */
-    height: 20px; /* Изменено */
+    padding: 6px; 
+    width: 25px; 
+    height: 20px; 
     cursor: pointer;
-    font-size: 12px; /* Уменьшено */
+    font-size: 12px; 
     text-align: center;
-    line-height: 10px; /* Добавлено */ /* Добавлено */
-    box-sizing: border-box; /* Добавлено */
+    line-height: 10px; 
+    box-sizing: border-box; 
     right:15px ;
 
 }
@@ -129,8 +133,19 @@ body {
     flex-wrap: wrap;
     gap: 2px;
     margin-top: 10px;
-    padding: 8px; /* Добавлено */
-    position: relative; /* Изменено */
+    padding: 8px; 
+    position: relative; 
+}
+.card_item:hover {
+    background-color: #e0e0e0;
+}
+        
+.card_item.selected {
+    background-color: #5a4ec4;
+    color: white;
+    border: 2px solid #c96f26;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .image_button {
@@ -141,27 +156,28 @@ body {
     background-size: cover;
     background-color: transparent;
     cursor: pointer;
-    position: absolute; /* Сохраняем */
+    position: absolute;
     right: 5px;
-    bottom: 6px; /* Изменено */
+    bottom: 6px;
 }
 .navbar{
     background-color: black;
     border-radius: 15px;
     padding: 12px;
-    width: 100%;
+    width: 400px;
     height: auto;
     box-sizing: border-box; 
     overflow: hidden;
-   
+    position: fixed;
     bottom: 0;
 }
 .trash{
     color:azure;
-    background-image: url('https://images.icon-icons.com/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png');
+    font-family: "Gill Sans", sans-serif;
 }
 .profile{
     color:azure;
+    font-family: "Gill Sans", sans-serif;
 }
 .navbar a {
     float: left;
@@ -177,8 +193,9 @@ body {
     color: black;
 }
 
-/* Add a color to the active/current link */
+
 .navbar a.active {
     background-color: #4CAF50;
     color: white;
 }
+

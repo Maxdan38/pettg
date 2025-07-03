@@ -31,7 +31,7 @@ async def catalog_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     # Создаем кнопку для открытия мини-приложения
     mini_app_button = KeyboardButton(
         text="🛒 Открыть магазин",  # Эмодзи для лучшей видимости
-        web_app=WebAppInfo(url="https://maxdan38.io/pettg/")
+        web_app=WebAppInfo(url="https://maxdan38.github.io/pettg/")
     )
     
     # Создаем клавиатуру с кнопкой
