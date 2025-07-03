@@ -76,18 +76,19 @@ body,html {
 }
 
 .card_image {
-    background-image: url(https://nike-air-force1.com/image/cache/catalog/p-6000/nike-p-6000-hangul-day-photon-dust/1-1200x600.webp);
+    background-image: url(https://n.cdn.cdek.shopping/images/shopping/9d9XmXAHvb5Zbp3C.jpg?v=1);
 }
 
 .card_image_two {
-    background-image: url(https://nike-air-force1.com/image/cache/catalog/AF07/07WhiteBlack/AO2423101-1200x600.webp);
+    background-image: url(https://n.cdn.cdek.shopping/images/shopping/tqbradUCTlY9vwVK.jpg?v=1);
+    
 }
 
 .card_image_three{
-    background-image: url(https://nike-air-force1.com/image/cache/catalog/am270/belo-chernye/nikeairmax270-1200x600.webp);
+    background-image: url(https://n.cdn.cdek.shopping/images/shopping/EItmntnjOdPkvP6H.jpg?v=1);
 }
 .card_image_four{
-    background-image: url(https://nike-air-force1.com/image/cache/catalog/Low/night-of-mischief/q4-l-1200x600.webp);
+    background-image: url(https://n.cdn.cdek.shopping/images/shopping/o5eN62kwhrbde0D0.jpg?v=1);
 }
 .card_content {
     padding: 10px 0; 
@@ -144,12 +145,7 @@ body,html {
     padding: 8px; 
     position: relative; 
 
-}
- .card_item:active, .card_item:hover {
-            background-color: #7f61cf;
-            transform: scale(0.98);
-        }
-        
+}  
         .card_item.selected {
             background-color: #7f61cf;
             color: white;
@@ -206,11 +202,15 @@ body,html {
 }
         
 .trash:hover .cart-icon,.trash.active .cart-icon {
-    fill: #FF0000;
+    fill: #010101;
     transform: scale(1.1);
 }
 .profile:hover .nav-icon,.profile.active .nav-icon,.trash:hover .nav-icon,.trash.active .nav-icon {
-    fill: #FF0000;
+    fill: #010101;
+    transform: scale(1.1);
+}
+.tovary:hover .nav-icon,.tovary.active .nav-icon {
+    fill: #010101;
     transform: scale(1.1);
 }
 .navbar a {
@@ -218,7 +218,7 @@ body,html {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 78px;
+    padding: 10px 45px;
     text-decoration: none;
     font-size: 17px;
 
