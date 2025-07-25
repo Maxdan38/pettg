@@ -1,12 +1,15 @@
-let selectedSize = null;
+const selectedSizes = {};
+
         
         function selectSize(element) {
+            
             // Если кликаем на уже выбранный размер - снимаем выделение
             if (element === selectedSize) {
                 element.classList.remove('selected');
                 selectedSize = null;
                 return;
             }
+            
             
             // Снимаем выделение с предыдущего выбранного элемента
             if (selectedSize) {
