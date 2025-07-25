@@ -3,14 +3,14 @@ body,html {
     width: 400px;
     min-height: 625px;
     max-width: 400px;
-    margin: 0;
+    margin-bottom: 30px;
     padding: 0;
     background-color: #2D2D2D;
     box-sizing: border-box;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: normal;
     font-size: 100%;
-    position: relative;
+    position: flex;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -190,7 +190,7 @@ body,html {
     height: 70px;
     box-sizing: border-box; 
     overflow: hidden;
-    position: fixed;
+    position:fixed;
     bottom: 0;
 }
 .nav-icon {
